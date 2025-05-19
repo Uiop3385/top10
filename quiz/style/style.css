@@ -1,0 +1,177 @@
+/* Add styling here */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #5e5e5e;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+}
+
+.header-text {
+font-family: 'Varela Round', sans-serif;
+font-size: 2em;
+display: inline-block;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header img {
+    max-width: 50%;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+h2 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+main img {
+    max-width: 100%;
+}
+
+main p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.text {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.container {
+  background-color: #616161;
+  padding: 20px;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.container input[type="submit"] {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.container input[type="submit"]:hover {
+  background-color: #3e8e41;
+  transform: scale(1.2);
+  border-radius: 6px;
+}
+
+.quiz {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+h2, h3 {
+  font-size: 1.5em;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#top-button {
+    background-color: #cccccc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 1.5rem;
+    transition: transform 0.5s ease-in-out;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#top-button.fa.fa-arrow-up{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: white;
+}
+#top-button:hover {
+    background-color: #999;
+    transform: rotate(360deg);
+}
+#top-button:active {
+    background-color: #666;
+}
+
+@media only screen and (max-width: 600px) {
+    .arrow {
+        font-size: 2em;
+    }
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4b4b4b;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer img {
+    max-width: 50%;
+}
